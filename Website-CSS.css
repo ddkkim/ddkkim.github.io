@@ -6,6 +6,8 @@ table{
   border-collapse: collapse;
   table-layout: fixed;
 
+  background-color: white;
+
   font-size: 40px;
   font-family: Myriad Pro;
   font-weight: bold;
@@ -65,15 +67,18 @@ p {
 
 .left {
   width: 50%;
+  background-color:#91BAF1;
 }
 
 .right {
   width: 50%;
-  background-color:rgb(221, 221, 221);
+  background-color:#91EAF1;
+  padding-bottom: 9px;
 }
 
 .words {
   width: 33%;
+  padding-bottom: 25px;
 }
 
 .row:after {
