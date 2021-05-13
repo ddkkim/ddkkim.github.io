@@ -1,0 +1,144 @@
+body {
+  background-color: white;
+}
+table{
+  border: 1px solid black;
+  border-collapse: collapse;
+  table-layout: fixed;
+
+  font-size: 40px;
+  font-family: Myriad Pro;
+  font-weight: bold;
+  
+  width: 900px;
+  height: 900px;
+  
+  text-align: center;
+  
+ }
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  table-layout: fixed;
+  
+  padding-top:50px;
+  padding-bottom:50px;
+  padding-left:50px;
+  padding-right:50px;
+  
+  font-size: 40px;
+  font-family: Myriad Pro;
+  font-weight: bold;
+  
+  width: 55%;
+  height: 55%;
+  
+  text-align: center;
+  
+ }
+th {
+	 text-align: center;
+	 background-color: #91FF6B;
+ }
+
+h2 {
+	font-size: 40px;
+	font-family:Myriad Pro;
+	font-weight: bold;
+}
+
+p {
+	font-size: 20px;
+	font-family: Myriad Pro;
+}
+
+/* columns */
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  padding: 10px; 
+}
+
+.left {
+  width: 50%;
+}
+
+.right {
+  width: 50%;
+  background-color:rgb(221, 221, 221);
+}
+
+.words {
+  width: 33%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* flippy cards */
+
+body { font-family: sans-serif; }
+
+.scene {
+  width: 250px;
+  height: 137px;
+  perspective: 600px;
+  margin: auto;
+}
+
+.card {
+  width: 100%;
+  height: 100%;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  cursor: pointer;
+  position: relative;
+}
+
+.card.is-flipped {
+  transform: rotateY(180deg);
+}
+
+.card__face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  line-height: 120px;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.card__face--front {
+  background: rgb(89, 202, 114);
+}
+
+.card__face--back {
+  background: rgb(0, 0, 3);
+  transform: rotateY(180deg);
+}
+
+.card__face--frontB{
+  background: rgb(36, 193, 255);
+}
+
+.card__face--frontC{
+  background: rgb(219, 84, 118);
+}
+
+/* kek */
+
+h3{
+  text-align: center;
+  font-size: x-small;
+}
