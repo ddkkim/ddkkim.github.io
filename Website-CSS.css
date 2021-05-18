@@ -12,9 +12,10 @@ table{
   font-family: Myriad Pro;
   font-weight: bold;
   
-  width: 900px;
-  height: 900px;
+  width: 90%;
+  height: 90%;
   
+  margin-bottom: 40px;
   text-align: center;
   
  }
@@ -23,12 +24,9 @@ td {
   border-collapse: collapse;
   table-layout: fixed;
   
-  padding-top:50px;
-  padding-bottom:50px;
-  padding-left:50px;
-  padding-right:50px;
+  padding: 1em;
   
-  font-size: 40px;
+  font-size: 1em;
   font-family: Myriad Pro;
   font-weight: bold;
   
@@ -41,6 +39,10 @@ td {
 th {
 	 text-align: center;
 	 background-color: #91FF6B;
+   font-size: 0.7em;
+   font-family: Myriad Pro;
+   font-weight: bold;
+
  }
 
 h2 {
@@ -62,23 +64,22 @@ p {
 
 .column {
   float: left;
-  padding: 10px; 
 }
 
 .left {
   width: 50%;
-  background-color:#91BAF1;
+  background-color:#ffe13a;
 }
 
 .right {
   width: 50%;
-  background-color:#91EAF1;
-  padding-bottom: 9px;
+  background-color:#3b89ff;
+  padding-bottom: 20px;
 }
 
 .words {
   width: 33%;
-  padding-bottom: 25px;
+  padding-bottom: 50px;
 }
 
 .row:after {
@@ -87,13 +88,22 @@ p {
   clear: both;
 }
 
+@media screen and (max-width: 1200px) {
+  .left {
+    width: 100%;
+  }
+  .right {
+    width: 100%;
+  }
+}
+
 /* flippy cards */
 
 body { font-family: sans-serif; }
 
 .scene {
-  width: 250px;
-  height: 137px;
+  width: 90%;
+  height: 300px;
   perspective: 600px;
   margin: auto;
 }
@@ -104,6 +114,8 @@ body { font-family: sans-serif; }
   transition: transform 1s;
   transform-style: preserve-3d;
   cursor: pointer;
+  padding-top: 20px;
+  padding-bottom: 20px;
   position: relative;
 }
 
@@ -115,7 +127,7 @@ body { font-family: sans-serif; }
   position: absolute;
   width: 100%;
   height: 100%;
-  line-height: 120px;
+  line-height: 30px;
   color: white;
   text-align: center;
   font-weight: bold;
@@ -131,6 +143,7 @@ body { font-family: sans-serif; }
 .card__face--back {
   background-color: rgb(0, 0, 3);
   transform: rotateY(180deg);
+  font-size: 1.2em;
 }
 
 .card__face--frontB{
@@ -246,7 +259,6 @@ h3{
     box-sizing: border-box;
   }
 }
-
 
 /* Other
  * =============================== */
