@@ -9,7 +9,7 @@ table{
   background-color: white;
 
   font-size: 40px;
-  font-family: Myriad Pro;
+  font-family: 'Myriad Pro', Arial, Helvetica, 'Segoe UI', Tahoma, Verdana, sans-serif;
   font-weight: bold;
   
   width: 90%;
@@ -27,7 +27,7 @@ td {
   padding: 1em;
   
   font-size: 1em;
-  font-family: Myriad Pro;
+  font-family: 'Myriad Pro', Arial, Helvetica, 'Segoe UI', Tahoma, Verdana, sans-serif;
   font-weight: bold;
   
   width: 55%;
@@ -40,20 +40,20 @@ th {
 	 text-align: center;
 	 background-color: #91FF6B;
    font-size: 0.7em;
-   font-family: Myriad Pro;
+   font-family: 'Myriad Pro', Arial, Helvetica, 'Segoe UI', Tahoma, Verdana, sans-serif;
    font-weight: bold;
 
  }
 
 h2 {
 	font-size: 40px;
-	font-family:Myriad Pro;
+	font-family:'Myriad Pro', Arial, Helvetica, 'Segoe UI', Tahoma, Verdana, sans-serif;
 	font-weight: bold;
 }
 
 p {
 	font-size: 20px;
-	font-family: Myriad Pro;
+	font-family: 'Myriad Pro', Arial, Helvetica, 'Segoe UI', Tahoma, Verdana, sans-serif;
 }
 
 /* columns */
